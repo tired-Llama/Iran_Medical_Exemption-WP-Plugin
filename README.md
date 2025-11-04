@@ -92,6 +92,13 @@ medical-exemption-plugin/
 │   └── js/
 └── README.md
 ```
+### Learning resources
+#### How to develop a wordpress plugin
+- [Simple WordPress Plugin Development - Start to Finish](https://www.youtube.com/watch?v=Bx0oisOOqNg)
+#### Documentation for used packages
+- [PHP installation](https://www.php.net/manual/en/install.unix.debian.php)
+- [Composer](https://getcomposer.org/download/)
+- [Carbon fields](https://docs.carbonfields.net/quickstart.html)
 
 ## Support
 

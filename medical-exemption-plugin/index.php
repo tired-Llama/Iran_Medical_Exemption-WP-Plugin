@@ -1,0 +1,3 @@
+<?php
+
+die('You are not supposed to be here!')
