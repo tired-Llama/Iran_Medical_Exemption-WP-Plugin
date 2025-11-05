@@ -9,7 +9,7 @@
  * Domain Path: /languages
  */
 
-if (!defined('ABSPATH')) {زخئحخ
+if (!defined('ABSPATH')) {
   die("You are not supposed to be here!");
 }
 

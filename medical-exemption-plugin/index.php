@@ -1,3 +1,3 @@
 <?php
 
-die('You are not supposed to be here!')
+die('You are not supposed to be here!');
