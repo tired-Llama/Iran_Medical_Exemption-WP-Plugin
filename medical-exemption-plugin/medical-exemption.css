@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'BYekan';
+  src: url('./assets/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+.exemption-container {
+  font-family: 'BYekan';
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  font-family: 'BYekan';
+}
+
+.exemption-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 3cm;
+}
+
+input{
+  direction: rtl;
+  font-family: 'BYekan';
+}
+
+.form-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.record-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 2cm;
+}
+
+.record-header, .record-header * {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  border-radius: 20px;
+}
+.record-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: beige;
+  border-radius: 20px;
+  vertical-align: middle;
+  /* gap: 10px; */
+}
+
+.record-field {
+  width: 50px;
+  text-align: right;
+  /* border: 1px solid #000; */
+  padding: 5px;
+  /* border-radius: 5px; */
+}
+
+.extra-wide {
+  width: 300px !important;
+  /* text-align: justify; */
+}
+
+/* Datepicker */
+.persianDatepicker, .datepicker-plot-area {
+  font-family: 'BYekan', Tahoma, Arial !important;
+  direction: rtl !important;
+  z-index: 10000 !important;
+}
+.datepicker-day-view .table-days td span.selected {
+  background: #000 !important;
+  color: #fff !important;
+}
+.datepicker-plot-area {
+  border-radius: 8px !important;
+  border: 1px solid #ccc !important;
+}
+.datepicker-plot-area .datepicker-header {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+/* Submit button */
+.submit-button {
+  font-family: 'BYekan';
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* input fields */
+.form-control {
+  direction: rtl;
+  font-family: 'BYekan';
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+}
+label {
+  font-family: 'BYekan';
+  color: #000;
+  font-size: 16px;
+}
