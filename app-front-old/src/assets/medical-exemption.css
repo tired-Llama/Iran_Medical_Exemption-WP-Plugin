@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'BYekan';
-  src: url('./assets/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+  src: url('./BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
 }
 
 .exemption-container {
@@ -8,7 +8,7 @@
   direction: rtl;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center !important;
   gap: 10px;
 }
 
